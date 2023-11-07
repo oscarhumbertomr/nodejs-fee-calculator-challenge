@@ -1,0 +1,16 @@
+{
+    "name": "fee-calculator",
+    "version": "1.0.0",
+    "description": "A fee calculator.",
+    "author": "",
+    "license": "ISC",
+    "scripts": {
+        "start": "node index.js orders_example.json fees_example.json",
+        "test": "jest --coverage",
+        "eslint": "eslint 'src/**'"
+    },
+    "devDependencies": {
+        "eslint": "^8.53.0",
+        "jest": "^29.7.0"
+    }
+}
